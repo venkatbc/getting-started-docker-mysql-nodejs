@@ -167,6 +167,9 @@ Here 192.168.43.147 is my host IpAddress `ifconfig | grep inet`
 
 5. Modify source code of nodejs app, build image, run container and test again.
 
+## How to check IP address of running container
+inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+
 ### Queries/Comments
 
 You can contact me at varunon9@gmail.com or create github issues.
