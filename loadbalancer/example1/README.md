@@ -32,6 +32,7 @@ http://172.0.2.36:5002
 ## Step 5 Build Image of NGINX
 
 Goto docker-nodejs-mysql-container/loadbalancer/example1/nginxsservice folder
+
 docker build -t nginxservice
 
 ## Step 6 Create a container from nginxsservice image
